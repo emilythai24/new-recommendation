@@ -1,0 +1,30 @@
+[
+  {
+    "title": "New Renewable Energy Breakthrough",
+    "topic": "tech",
+    "bias": "left",
+    "content": "Scientists have developed a new method...",
+    "url": "#"
+  },
+  {
+    "title": "Senate Passes New Budget Deal",
+    "topic": "politics",
+    "bias": "center",
+    "content": "After weeks of debate...",
+    "url": "#"
+  },
+  {
+    "title": "AI Tools Changing the Workplace",
+    "topic": "tech",
+    "bias": "right",
+    "content": "Corporations embrace AI to reduce costs...",
+    "url": "#"
+  },
+  {
+    "title": "Underdog Team Wins National Title",
+    "topic": "sports",
+    "bias": "center",
+    "content": "Fans celebrated late into the night...",
+    "url": "#"
+  }
+]

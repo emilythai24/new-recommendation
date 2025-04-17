@@ -1,0 +1,21 @@
+{
+  "cnn.com": 0.85,
+  "nytimes.com": 0.9,
+  "npr.org": 0.95,
+  "reuters.com": 0.98,
+  "apnews.com": 0.97,
+  "foxnews.com": 0.7,
+  "breitbart.com": 0.4,
+  "theblaze.com": 0.5,
+  "macrumors.com": 0.85,
+  "makezine.com": 0.75,
+  "thenextweb.com": 0.85,
+  "gizmodo.com": 0.85,
+  "theverge.com": 0.90,
+  "wired.com": 0.90,
+  "businessinsider.com": 0.75,
+  "cnet.com": 0.90,
+  "time.com": 0.90,
+  "theatlantic.com": 0.90,
+  "bbc.com": 0.95
+}

@@ -1,0 +1,22 @@
+{
+  "cnn.com": "left",
+  "nytimes.com": "left",
+  "msnbc.com": "left",
+  "npr.org": "center",
+  "reuters.com": "center",
+  "apnews.com": "center",
+  "foxnews.com": "right",
+  "breitbart.com": "right",
+  "theblaze.com": "right",
+  "macrumors.com": "center",
+  "makezine.com": "right",
+  "thenextweb.com": "left-center",
+  "gizmodo.com": "left",
+  "theverge.com": "left-center",
+  "wired.com": "left-center",
+  "businessinsider.com": "left-center",
+  "cnet.com": "center",
+  "time.com": "left-center",
+  "theatlantic.com": "left",
+  "bbc.com": "left-center"
+}

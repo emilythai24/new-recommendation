@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>News Recommender</title>
+  <script src="/static/script.js" defer></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f2f9ff, #fdfdfd);
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .search-container {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    input[type="text"] {
+      padding: 0.7rem;
+      font-size: 1rem;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      width: 300px;
+    }
+
+    button {
+      padding: 0.7rem 1.2rem;
+      font-size: 1rem;
+      background-color: #007acc;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+
+    #results {
+      width: 100%;
+      max-width: 700px;
+    }
+
+    .result-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .trust-high {
+      color: green;
+    }
+
+    .trust-medium {
+      color: orange;
+    }
+
+    .trust-low {
+      color: red;
+    }
+
+    a {
+      color: #006699;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+    .loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #007acc;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+  margin: 2rem auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+  </style>
+</head>
+<body>
+  <h1>🗞️ News Recommender</h1>
+  <div class="search-container">
+    <input type="text" id="interest" placeholder="Enter your interest (e.g. tech, AI)">
+    <button onclick="getRecommendations()">Recommend</button>
+  </div>
+  <div id="loader" class="loader" style="display: none;"></div>
+  <div id="results"></div>
+</body>
+</html>
