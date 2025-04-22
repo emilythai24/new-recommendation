@@ -20,7 +20,7 @@ This project is a Flask-based web application that provides users with relevant,
 
 ## Directory Structure
 
-news_recommendation/ ├── app.py ├── templates/ │ └── index.html ├── static/ │ ├── script.js │ └── styles.css (optional) ├── bias_labels.json ├── trust_scores.json ├── .gitignore ├── README.md └── requirements.txt
+news_recommendation/ ├── app.py ├── templates/ │ └── index.html ├── static/ │ ├── script.js │ └── styles.css (optional) ├── bias_labels.json ├── trust_scores.json ├── .gitignore ├── README.md 
 
 ## Inspiration
 
